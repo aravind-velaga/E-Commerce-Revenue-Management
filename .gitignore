@@ -1,6 +1,22 @@
+# Virtual envs
 .venv/
+
+# Python cache & build artifacts
 __pycache__/
 *.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
+
+# VSCode settings
 .vscode/
+
+# Logs
+*.log
+
+# IDE / shell config you don’t need tracked
 .bashrc
